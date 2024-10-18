@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #071952; /* Dark Blue Background */
+    color: #EBF4F6; /* Light Gray Text */
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    background-color: #EBF4F6; /* Light Gray Background for Content */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5em;
+    color: #088395; /* Deep Blue Text for Heading */
+    margin-bottom: 20px;
+}
+
+/* Paragraph and Score Styling */
+p {
+    font-size: 1.2em;
+    color: #071952; /* Dark Blue for Results Text */
+    margin: 10px 0;
+}
+
+/* Button Styles */
+.buttons {
+    margin: 20px 0;
+}
+
+.choice {
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #088395; /* Deep Blue Button */
+    color: #EBF4F6; /* Light Gray Text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effects */
+.choice:hover {
+    background-color: #37B7C3; /* Light Blue Hover Effect */
+    transform: translateY(-3px); /* Subtle lift on hover */
+}
+
+/* Result Text Styling */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* Score Styling */
+#score {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #088395; /* Deep Blue for Score */
+}
